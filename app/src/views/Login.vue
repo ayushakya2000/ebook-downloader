@@ -4,11 +4,11 @@
       <h2 style="text-align:center">Connect with your Social Media Account!</h2>
 
       <div class="col">
-        <button @click="signupFacebook" class="fb btn">
-          <i class="fa fa-facebook fa-fw"></i> Connect via Facebook
+        <button @click="signupFacebook">
+          Connect via Facebook
          </button>
-        <button @click="signupGoogle" class="google btn"><i class="fa fa-google fa-fw">
-          </i> Connect via Google
+        <button @click="signupGoogle">
+          Connect via Google
         </button>
       </div>
 

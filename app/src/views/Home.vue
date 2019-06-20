@@ -121,9 +121,11 @@ import {
   required,
   maxLength,
   email,
-  numeric,
-  alpha
+  numeric
 } from "vuelidate/lib/validators";
+import { regex } from 'vuelidate/lib/validators/common.js'
+const alpha=regex('alpha', /^[a-zA-Z][a-zA-Z ]*$/);
+
 import firebase from "firebase";
 
 
